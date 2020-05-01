@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+.clr {
+    clear: both;
+}
+
+
+/* Common css end */
+
+
+.count_down {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.count_down2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.count_down3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.count_down4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mix_menu {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.mix_menu ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.mix_menu ul li:hover {
+    background: green;
+    color: #fff;
+    border-color: green;
+}
+
+.mix_item .item {
+    float: left;
+    width: 25%;
+}
+
+.mix_item .item img {
+    width: 100%;
+}
+
+.mix_item {
+    margin-top: 60px;
+}
+
+
+
+.prgbar {
+    width: 50%;
+    margin-top: 100px !important;
+}
+
+.progressbar{
+    height: 30px;
+    border-radius: 20px !important;
+}
+
+.proggress{
+    height: 30px !important;
+    border-top-right-radius: 10px !important;
+}
