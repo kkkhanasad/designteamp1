@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+
+}
+
+
+.full_wrapper {
+    width: 100%;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/*common css part end*/
+/*banner part start*/
+
+.banner_full {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 36px 0 69px;
+}
+.banner_slider {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    height: 720px;
+    overflow: hidden;
+}
+.banner_1{
+    background: url('../images/PSD---Project.jpg');
+}
+
+.banner_2{
+    background: rgba(50, 42, 84, 0.85);
+}
+.banner_3{
+   background: url('../images/PSD---Project.jpg');
+}
+.banner_4{
+    background: rgba(50, 42, 84, 0.85);
+}
+
+
+.banner_1,.banner_2,.banner_3,.banner_4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:720px;
+}
+.banner_cont{
+    position: absolute;
+    top:10%;
+    left:20%;
+}
+
+.logo {
+    width: 60px;
+    float: left;
+    line-height: 50px;
+
+}
+
+.logo_text {
+    color: #1bcacf;
+    width: 100px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+
+}
+
+.main_menu {
+    width: 800px;
+    height: 50px;
+}
+
+.main_menu ul li {
+    float: left;
+}
+
+.main_menu ul {
+    float: right;
+}
+
+.main_menu ul li a {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    padding-left: 21px;
+    line-height: 50px;
+}
+
+.main_menu ul li a:hover {
+    color: #00e0d0;
+}
+
+
+.banner_text {
+    width: 780px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner_text h1 {
+    color: #fff;
+    margin-top: 180px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32;
+    font-weight: 900;
+
+}
+
+.banner_text p {
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    font-weight: 300;
+    line-height: 24px;
+
+}
+
+.banner_text a {
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #00e0d0;
+    padding: 15px 14px;
+    margin-top: 53px;
+
+}
+
+.banner_text a:hover {
+    background: #00e0d0;
+    color: aliceblue;
+}
+
+/*banner part end*/
+/*story part start*/
+.story_full {
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+
+
+}
+
+.story_img {
+    width: 240px;
+    float: left;
+
+}
+
+.story_text {
+    width: 640px;
+    float: right;
+}
+
+.story_text h2 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 28px;
+
+}
+
+.story_text p {
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+
+}
+
+.story_text p span {
+    display: block;
+    margin-top: 29px;
+}
+
+
+
+
+.story_text a {
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #00e0d0;
+    padding: 15px 14px;
+    margin-top: 53px;
+
+}
+
+.story_text a:hover {
+    background: #00e0d0;
+    color: #fff;
+}
+
+/*story part end*/
+/*venubox part start*/
+
+
+
+.venubox_full {
+    background: url('../images/PSD---Project.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 720px;
+    position: relative;
+    width: 100%;
+    height: 555px;
+
+}
+
+
+.venubox_overly {
+    background: rgba(50, 42, 84, 0.85);
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+.venubox_overly a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+
+}
+/*venubox part end*/
+/*web design part start*/
+.EXPERTISE_text {
+    text-align: center;
+}
+
+.EXPERTISE_text h3 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 71px;
+}
+
+.EXPERTISE_text h4 {
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 17px;
+
+
+}
+
+
+.EXPERTISE_inner {
+    width: 960px;
+    margin-top: 83px;
+}
+
+
+.WEB_DESIGN {
+
+    float: left;
+    width: 300px;
+
+}
+
+
+.wd1 {
+    margin-top: 80px;
+
+}
+
+.wd1 ul {
+    margin-right: 30px;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-right: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.wd1 a {
+     margin-top: 28px;
+    margin-bottom: 38px;
+    margin-left: 140px;
+}
+
+.wd1 h3 {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.wd2 ul {
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-right: 20px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.wd2 a {
+    margin-top: 80px;
+    margin-bottom: 38px;
+    margin-left: 131px;
+}
+
+
+
+.wd2 h3 {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+
+/*web design part end*/
+/* team part start*/
+
+.team_full{
+    background: url(../images/PSD---Project.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:71px 0 69px;
+}
+
+/*team part end*/
